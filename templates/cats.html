@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cats</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<header class="header">
+    <div class="headerAndLogo">
+        <a class="header-link" href="index.html">
+            <img class="header-image" src="https://placekitten.com/100/100" alt="header logo img link to homepage">
+        </a>
+        <h1>Cats Power the Internet</h1>
+
+        <nav class="menu">
+            <li><button class="button" type="button">☰</button>
+                <ul class="menu-link">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cats.html">Famous Cats</a></li>
+                    <li><a href="index.html">Cat Events</a></li>
+                </ul>
+            </li>
+        </nav>
+    </div>
+</header>
+<div class="content-card">
+    <div class="card">
+        <h3>Jean</h3>
+        <img class="card__pic" src="https://placekitten.com/200/200" alt="card img1 the first img of the card">
+        <p>You’re probably familiar with the wet food in cans, but you may also find it in pouches.</p>
+        <p>Both come in small sizes<button class="open" type="button">Subscribe</button>making it easy to provide</p>
+    </div>
+    <div class="card">
+        <h3>Jorts</h3>
+        <img class="card__pic" src="https://placekitten.com/200/200"  alt="card img2 the second img of the card">
+        <p>a variety of different flavors, and for some, smaller sizes may make portion control easier</p>
+        <p>Both come in small sizes<button class="open" type="button">Subscribe</button>making it easy to provide</p>
+    </div>
+    <div class="card">
+        <h3>Maru</h3>
+        <img class="card__pic" src="https://placekitten.com/200/200" alt="card img3 the third img of the card">
+        <p> says Purina Veterinary Nutritionist Dr. Dorothy Laflamme</p>
+        <p>Both come in small sizes <button class="open" type="button">Subscribe</button> making it easy to provide</p>
+    </div>
+    <div class="card">
+        <h3>LilBUb</h3>
+        <img class="card__pic" src="https://placekitten.com/200/200" alt="card img4 the third img of the card">
+        <p>Wet cat food has at least 65 percent or more moisture content</p>
+        <p>Both come in small sizes <button class="open" type="button">Subscribe</button> making it easy to provide</p>
+    </div>
+    <div class="card">
+        <h3>NacyCat</h3>
+        <img class="card__pic" src="https://placekitten.com/200/200" alt="card img5 the third img of the card">
+        <p>wet food should not be left out for more than 30 to 60 minutes at a tim</p>
+        <p>Both come in small sizes <button class="open" type="button">Subscribe</button> making it easy to provide</p>
+    </div>
+    <div class="card">
+        <h3>Grumpycat</h3>
+        <img class="card__pic" src="https://placekitten.com/200/200" alt="card img6 the third img of the card">
+        <p>Wet cat food offers many benefits, though, including</p>
+        <p>Both come in small sizes<button class="open" type="button">Subscribe</button>making it easy to provide</p>
+    </div>
+</div>
+<dialog class="modal">
+    <p>Subscribe to the latest Mews</p>
+    <form class="register" action="/subscribe" method="POST">
+        <label class="register__label">
+            <span class="register__email-label">Email: *required</span>
+            <input name="email" class="register__email">
+            <div class="register-email__error"></div>
+        </label>
+        <label class="register__label">
+            <span class="register__confirm-label">Confirm Email: *required</span>
+            <input name="confirm"  class="register__confirm">
+            <div class="register-confirm__error"></div>
+        </label>
+        <div class="modal-button">
+            <button class="subscribe-button" type="submit">Subscribe</button>
+            <button class="close" type="button">Cancel</button>
+        </div>
+    </form>
+</dialog>
+<footer>
+    <ul class="footer__nav">
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Work for Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Social Media</a></li>
+    </ul>
+</footer>
+<script src="Menu.js"></script>
+</body>
+</html>
